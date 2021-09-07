@@ -2,8 +2,10 @@ import React from "react";
 import "./style.css";
 
 const ExpensesFilter = (props) => { //CONTROLLED COMPONENT (BY IT'S FATHER: Expenses)
+
   const selectHandler = (event) => {
     props.onExpenseFilterChange(event.target.value);
+    
   };
 
   return (
