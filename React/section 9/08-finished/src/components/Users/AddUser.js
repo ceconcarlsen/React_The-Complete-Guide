@@ -7,6 +7,7 @@ import classes from "./AddUser.module.css";
 import Wrapper from "../Helpers/Wrapper";
 
 const AddUser = (props) => {
+  //useRef
   const nameInputRef = useRef();
   const ageInputRef = useRef();
 
